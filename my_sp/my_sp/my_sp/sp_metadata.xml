@@ -1,0 +1,68 @@
+<ns0:EntityDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:ns1="urn:oasis:names:tc:SAML:metadata:algsupport"
+    xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" entityID="http://localhost:8000/saml2/metadata"
+    validUntil="2024-11-19T18:34:03Z">
+    <ns0:Extensions>
+        <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#md5" />
+        <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#ripemd160" />
+        <ns1:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224" />
+        <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384" />
+        <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-md5" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha224" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384" />
+        <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512" />
+    </ns0:Extensions>
+    <ns0:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+        AuthnRequestsSigned="false" WantAssertionsSigned="false">
+        <ns0:KeyDescriptor use="signing">
+            <ns2:KeyInfo>
+                <ns2:X509Data>
+                    <ns2:X509Certificate>
+                        MIIDSzCCAjOgAwIBAgIUFlozG1XVqJz0xKG3Ac72QmX95uowDQYJKoZIhvcNAQELBQAwNTELMAkGA1UEBhMCVUsxEzARBgNVBAgMClNvbWUtU3RhdGUxETAPBgNVBAoMCEV6UmV3YXJkMB4XDTIzMTEyMDE2NDYxN1oXDTMzMTExNzE2NDYxN1owNTELMAkGA1UEBhMCVUsxEzARBgNVBAgMClNvbWUtU3RhdGUxETAPBgNVBAoMCEV6UmV3YXJkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxe7qBTNEFEZFXKt4NHjADs4mg5zZeTHYKFr1MZqOIYsW+XtpcvjwxnHgAExEYZM5lUZOduxnV9p8lJWc/JmRITLZId7EYaCZTOZD3+uWx6CBXdIcuk7BpX0KvIkG5gg8MMlGq3yeu+pNIRhmMbA2is3jwyaEzMKjs6UP43PfqmHMMabs7dnKpEwGgp6rdzqJA8rj7CASP9AiAdj6De9f3UP+xZ4KcO5LAELI7fPsi3+lH1BQzbvfsFbTLC0g+QJ/tVdM5kOEm90k00iNfENFm53KRKsthA2nyCeKAHkHEEeB4PEC98lG6NqJUWyJs3XrRiFM86bqJO/wAXMcWv5e9QIDAQABo1MwUTAdBgNVHQ4EFgQUxU35ktcXp22nKdSGKFRqJ3vcAD4wHwYDVR0jBBgwFoAUxU35ktcXp22nKdSGKFRqJ3vcAD4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnXnQO2JrPc9Lv1xt04+pex5O38LsMW45r7lN8c3ZiEmOqUQAq/NTu91Wv9fBBpSQ/Y6WM7Fn5EqLnI2knf/lhi0HpL8KgKeFCp+SF/0x5kmfGnrj8GZ9vMnM6GZRAU+EoTgh0Lmux3Uw/kphv5fwKXQMAsNrG7NhYMwiGuzPfvRe/tFYfrKyLnW8LYtE3Ala+bi4xzVwF2tuBh28frsYw4H8PtbuFBiR5JDxNapQ/mJKdt/eNeApVwNK1WGWAuDV0l3Ittojsf1R/mFe7eLwSzlobKtaI8UO7CctKRimngjRa90UvxxKxpxeY0kShjySXbxqpCtFerRO/lemL5IFTA==</ns2:X509Certificate>
+                </ns2:X509Data>
+            </ns2:KeyInfo>
+        </ns0:KeyDescriptor>
+        <ns0:KeyDescriptor use="encryption">
+            <ns2:KeyInfo>
+                <ns2:X509Data>
+                    <ns2:X509Certificate>
+                        MIIDSzCCAjOgAwIBAgIUFlozG1XVqJz0xKG3Ac72QmX95uowDQYJKoZIhvcNAQELBQAwNTELMAkGA1UEBhMCVUsxEzARBgNVBAgMClNvbWUtU3RhdGUxETAPBgNVBAoMCEV6UmV3YXJkMB4XDTIzMTEyMDE2NDYxN1oXDTMzMTExNzE2NDYxN1owNTELMAkGA1UEBhMCVUsxEzARBgNVBAgMClNvbWUtU3RhdGUxETAPBgNVBAoMCEV6UmV3YXJkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxe7qBTNEFEZFXKt4NHjADs4mg5zZeTHYKFr1MZqOIYsW+XtpcvjwxnHgAExEYZM5lUZOduxnV9p8lJWc/JmRITLZId7EYaCZTOZD3+uWx6CBXdIcuk7BpX0KvIkG5gg8MMlGq3yeu+pNIRhmMbA2is3jwyaEzMKjs6UP43PfqmHMMabs7dnKpEwGgp6rdzqJA8rj7CASP9AiAdj6De9f3UP+xZ4KcO5LAELI7fPsi3+lH1BQzbvfsFbTLC0g+QJ/tVdM5kOEm90k00iNfENFm53KRKsthA2nyCeKAHkHEEeB4PEC98lG6NqJUWyJs3XrRiFM86bqJO/wAXMcWv5e9QIDAQABo1MwUTAdBgNVHQ4EFgQUxU35ktcXp22nKdSGKFRqJ3vcAD4wHwYDVR0jBBgwFoAUxU35ktcXp22nKdSGKFRqJ3vcAD4wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnXnQO2JrPc9Lv1xt04+pex5O38LsMW45r7lN8c3ZiEmOqUQAq/NTu91Wv9fBBpSQ/Y6WM7Fn5EqLnI2knf/lhi0HpL8KgKeFCp+SF/0x5kmfGnrj8GZ9vMnM6GZRAU+EoTgh0Lmux3Uw/kphv5fwKXQMAsNrG7NhYMwiGuzPfvRe/tFYfrKyLnW8LYtE3Ala+bi4xzVwF2tuBh28frsYw4H8PtbuFBiR5JDxNapQ/mJKdt/eNeApVwNK1WGWAuDV0l3Ittojsf1R/mFe7eLwSzlobKtaI8UO7CctKRimngjRa90UvxxKxpxeY0kShjySXbxqpCtFerRO/lemL5IFTA==</ns2:X509Certificate>
+                </ns2:X509Data>
+            </ns2:KeyInfo>
+        </ns0:KeyDescriptor>
+        <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="http://localhost:8000/saml2/ls/post" />
+        <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="http://localhost:8000/saml2/ls/redirect" />
+        <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
+        <ns0:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="http://localhost:8000/saml2/acs/" index="1" />
+        <ns0:AttributeConsumingService index="1">
+            <ns0:ServiceName xml:lang="en" />
+            <ns0:RequestedAttribute Name="PartnerSlug"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true" />
+            <ns0:RequestedAttribute Name="urn:mace:dir:attribute-def:email"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Email"
+                isRequired="true" />
+            <ns0:RequestedAttribute Name="FirstName"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true" />
+            <ns0:RequestedAttribute Name="LastName"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true" />
+            <ns0:RequestedAttribute Name="MemberLevel"
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="false" />
+        </ns0:AttributeConsumingService>
+    </ns0:SPSSODescriptor>
+</ns0:EntityDescriptor>
